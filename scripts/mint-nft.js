@@ -1,12 +1,9 @@
 require('dotenv').config();
-// // sAPI_URL = "https://eth-ropsten.alchemyapi.io/v2/0LdxNQsATtTSmCFr18aAv-lLkXlwkgDC";
+
 const API_URL = process.env.API_URL;
 const PUBLIC_KEY = process.env.PUBLIC_KEY;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
-// // // console.log(typeof API_URL);
-// // // console.log(API_URL);
-// // // console.log(typeof sAPI_URL);
-// // // console.log(sAPI_URL);
+
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(API_URL);
 const contract = require("../artifacts/contracts/MedalBuild.sol/MedalBuild.json");

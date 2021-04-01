@@ -1,0 +1,29 @@
+{
+  "name": "medal-build",
+  "version": "1.0.0",
+  "description": "NFT Medals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaintdic/medal-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asaintdic/medal-build/issues"
+  },
+  "homepage": "https://github.com/asaintdic/medal-build#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.0.32",
+    "hardhat": "^2.1.1"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.0.0",
+    "@openzeppelin/contracts": "^3.4.1",
+    "dotenv": "^8.2.0"
+  }
+}

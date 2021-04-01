@@ -1,0 +1,12 @@
+{
+    "attributes" : [ {
+      "race_distance" : "Half Marathon",
+      "finishing_time" : "1:45.09"
+    }, {
+      "race_name" : "Brooklyn Half",
+      "date" : "05/15/2021"
+    } ],
+    "description" : "Virtual Brooklyn Half Marathon!",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmPWcuLxZCSz7zfs7XqZ1XHg8o2uc1sSjcXYvq2rWoJAQR",
+    "name" : "Lola Shonaike"
+}
